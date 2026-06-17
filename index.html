@@ -1,315 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Bewafa Discord Bot</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
-        }
-        
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 40px 30px;
-            text-align: center;
-        }
-        
-        header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        
-        header p {
-            font-size: 1.1em;
-            opacity: 0.9;
-        }
-        
-        .content {
-            padding: 40px 30px;
-        }
-        
-        .last-updated {
-            background: #f0f4ff;
-            border-left: 4px solid #667eea;
-            padding: 15px 20px;
-            margin-bottom: 30px;
-            border-radius: 5px;
-            font-style: italic;
-            color: #555;
-        }
-        
-        section {
-            margin-bottom: 35px;
-        }
-        
-        h2 {
-            color: #667eea;
-            font-size: 1.8em;
-            margin-bottom: 15px;
-            border-bottom: 2px solid #667eea;
-            padding-bottom: 10px;
-        }
-        
-        h3 {
-            color: #764ba2;
-            font-size: 1.3em;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-        
-        p {
-            margin-bottom: 12px;
-            text-align: justify;
-        }
-        
-        ul {
-            margin-left: 25px;
-            margin-bottom: 15px;
-        }
-        
-        li {
-            margin-bottom: 8px;
-        }
-        
-        .highlight {
-            background: #fff3cd;
-            padding: 20px;
-            border-radius: 5px;
-            border-left: 4px solid #ffc107;
-            margin: 20px 0;
-        }
-        
-        .contact-section {
-            background: #e8f4f8;
-            padding: 25px;
-            border-radius: 5px;
-            border-left: 4px solid #17a2b8;
-        }
-        
-        a {
-            color: #667eea;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        
-        a:hover {
-            color: #764ba2;
-            text-decoration: underline;
-        }
-        
-        footer {
-            background: #f8f9fa;
-            padding: 20px 30px;
-            text-align: center;
-            border-top: 1px solid #e9ecef;
-            color: #666;
-            font-size: 0.9em;
-        }
-        
-        .links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 15px;
-            flex-wrap: wrap;
-        }
-        
-        .links a {
-            padding: 8px 16px;
-            background: #667eea;
-            color: white;
-            border-radius: 5px;
-            transition: all 0.3s;
-        }
-        
-        .links a:hover {
-            background: #764ba2;
-            color: white;
-        }
-        
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 1.8em;
-            }
-            
-            .content {
-                padding: 20px 15px;
-            }
-            
-            h2 {
-                font-size: 1.4em;
-            }
-            
-            .links {
-                flex-direction: column;
-            }
-        }
-    </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>Privacy Policy — Bewafa Community & Bots</title>
+<meta name="description" content="Official Privacy Policy for the Bewafa Discord Community, Bots, and Minecraft SMP." />
+<meta name="theme-color" content="#9d00ff" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Orbitron:wght@400;600;700;900&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+<link rel="icon" href="icon.gif" type="image/gif" />
+
+<style>
+  *,*::before,*::after { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  :root {
+    /* Deep Backgrounds */
+    --bg: #05020a;
+    --bg2: #0a0414;
+    --bg3: #120724;
+    
+    /* Enhanced Electric Neon Purple Theme */
+    --purple: #aa00ff;
+    --purple2: #d04dff;
+    --purple3: #e8a6ff;
+    
+    --silver: #f8fafc;
+    --silver2: #cbd5e1;
+    --silver3: #94a3b8;
+    
+    /* Intense Glow Variables */
+    --border: rgba(170, 0, 255, 0.3);
+    --border2: rgba(208, 77, 255, 0.6);
+    --glow: rgba(170, 0, 255, 0.5);
+    --glow-intense: rgba(208, 77, 255, 0.8);
+    --glow-core: rgba(232, 166, 255, 1);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--silver);
+    font-family: 'Syne', sans-serif;
+    line-height: 1.7;
+    overflow-x: hidden;
+    cursor: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  h1, h2, h3, .nav-link, .btn, .status-text {
+    font-family: 'Quantico', sans-serif;
+  }
+
+  /* ── TRIFORGE CURSOR ── */
+  #cur, #cur-trail { position: fixed; border-radius: 50%; pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); }
+  #cur { width: 8px; height: 8px; background: var(--purple3); box-shadow: 0 0 15px var(--glow-core), 0 0 30px var(--purple); }
+  #cur-trail { width: 36px; height: 36px; border: 1px solid rgba(208, 77, 255, 0.8); box-shadow: 0 0 15px var(--glow); transition: all .12s ease-out; }
+
+  @media (pointer: coarse) {
+    body, a, .btn, details, .status-capsule { cursor: auto !important; }
+    #cur, #cur-trail { display: none !important; }
+  }
+
+  /* ── BACKGROUND PARTICLES & NOISE ── */
+  #particles { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+  .p { position: absolute; border-radius: 50%; animation: float linear infinite; }
+  @keyframes float { 0% { transform: translateY(100vh) scale(0); opacity: 0; } 10% { opacity: 1; } 90% { opacity: .6; } 100% { transform: translateY(-10vh) scale(1); opacity: 0; } }
+
+  body::before { content: ''; position: fixed; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); opacity: .5; z-index: 1; pointer-events: none; }
+
+  .container { width: min(1000px, 90%); margin: 0 auto; position: relative; z-index: 2; }
+
+  /* ── NAV ── */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    display: flex; justify-content: center; gap: 40px;
+    padding: 24px 0; background: linear-gradient(180deg, rgba(5,2,10,0.95) 0%, rgba(5,2,10,0.8) 60%, transparent 100%);
+    backdrop-filter: blur(16px); border-bottom: 1px solid rgba(170,0,255,0.1);
+    transition: 0.4s;
+  }
+  nav a {
+    color: var(--silver2); text-decoration: none; font-size: 0.95rem; font-weight: 700;
+    transition: 0.3s; position: relative; text-transform: uppercase; letter-spacing: 2px;
+  }
+  nav a:hover { color: #fff; text-shadow: 0 0 15px var(--purple3), 0 0 30px var(--purple); transform: translateY(-2px); }
+  nav a::after {
+    content: ''; position: absolute; left: 50%; bottom: -8px; height: 2px; width: 0;
+    background: var(--glow-core); border-radius: 2px; transition: all 0.4s ease;
+    transform: translateX(-50%); box-shadow: 0 0 10px var(--glow-core);
+  }
+  nav a:hover::after { width: 100%; }
+
+  /* ── HERO ── */
+  header.hero {
+    padding: 100px 0 60px; text-align: center; position: relative; z-index: 2;
+  }
+  .hero-bg { position: absolute; inset: 0; background: radial-gradient(ellipse 80% 60% at 50% 40%, rgba(170, 0, 255, 0.15) 0%, transparent 70%); pointer-events: none; }
+
+  .page-title {
+    font-size: clamp(2.5rem, 6vw, 4.5rem); 
+    color: #ffffff; 
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+    animation: fadeUp .8s 0.2s both ease, ambientTextGlow 4s ease-in-out infinite alternate;
+  }
+  
+  @keyframes ambientTextGlow {
+    0% { text-shadow: 0 0 25px rgba(170, 0, 255, 0.3), 0 0 50px rgba(170, 0, 255, 0.1); }
+    100% { text-shadow: 0 0 40px rgba(208, 77, 255, 0.6), 0 0 80px rgba(170, 0, 255, 0.4); }
+  }
+
+  .tagline {
+    color: var(--silver2); font-size: 1rem; letter-spacing: 0.2em; text-transform: uppercase;
+    font-weight: 600; margin-bottom: 2rem; animation: fadeUp .8s 0.4s both ease;
+  }
+
+  .last-updated {
+    display: inline-block; padding: 10px 20px; background: rgba(170, 0, 255, 0.1);
+    border: 1px solid var(--border); border-radius: 100px; color: var(--purple3);
+    font-size: 0.85rem; font-weight: 700; letter-spacing: 1px;
+    animation: fadeUp .8s 0.6s both ease;
+  }
+
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+
+  /* ── POLICY CONTENT (CARDS) ── */
+  section { padding: 4rem 0; position: relative; z-index: 2; }
+  
+  .policy-card {
+    background: rgba(10, 4, 20, 0.6); border: 1px solid var(--border); border-radius: 24px;
+    padding: 3rem 3.5rem; margin-bottom: 2rem; transition: 0.5s ease; position: relative; overflow: hidden;
+    backdrop-filter: blur(16px);
+  }
+  .policy-card::before {
+    content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 4px;
+    background: linear-gradient(90deg, transparent, var(--purple2), transparent);
+    transition: 0.7s ease; z-index: 3;
+  }
+  .policy-card:hover::before { left: 100%; }
+  .policy-card:hover { border-color: var(--purple3); box-shadow: 0 15px 40px rgba(170, 0, 255, 0.15); background: rgba(170, 0, 255, 0.05); }
+
+  .policy-card h2 {
+    color: #fff; font-size: 1.8rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 15px;
+    border-bottom: 1px solid var(--border); padding-bottom: 15px;
+  }
+  .policy-card h2 span.icon {
+    display: grid; place-items: center; width: 45px; height: 45px; background: rgba(170,0,255,0.1);
+    border-radius: 12px; border: 1px solid var(--border2); color: var(--glow-core); font-size: 1.2rem;
+  }
+  
+  .policy-card h3 { color: var(--purple3); font-size: 1.2rem; margin: 1.5rem 0 0.8rem; letter-spacing: 1px; }
+  .policy-card p { color: var(--silver2); font-size: 1.05rem; margin-bottom: 1rem; line-height: 1.8; }
+  .policy-card strong { color: #fff; }
+
+  ul.policy-list { list-style: none; padding: 0; margin: 15px 0 25px 0; }
+  ul.policy-list li { margin: 10px 0; padding-left: 28px; position: relative; color: var(--silver2); font-size: 1.05rem; }
+  ul.policy-list li::before { content: "»"; position: absolute; left: 0; color: var(--purple2); font-weight: bold; font-size: 1.2rem; }
+
+  .highlight-box {
+    background: rgba(232, 166, 255, 0.08); border-left: 4px solid var(--purple2);
+    padding: 20px; border-radius: 0 12px 12px 0; margin: 20px 0;
+  }
+
+  /* ── BUTTONS ── */
+  .btn-primary {
+    display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+    padding: 1rem 2rem; border-radius: 12px; font-weight: 700; font-size: .9rem;
+    text-transform: uppercase; letter-spacing: .15em; text-decoration: none; cursor: none;
+    color: #fff; background: linear-gradient(135deg, var(--purple), var(--purple2));
+    border: 1px solid var(--purple3); box-shadow: 0 10px 30px var(--glow);
+    transition: 0.4s; margin-top: 15px;
+  }
+  .btn-primary:hover { transform: translateY(-4px); box-shadow: 0 15px 50px var(--glow-intense); border-color: #fff; }
+
+  a.inline-link { color: var(--purple3); text-decoration: none; transition: 0.3s; border-bottom: 1px solid transparent; }
+  a.inline-link:hover { color: #fff; border-bottom-color: var(--glow-core); text-shadow: 0 0 15px var(--glow-intense); }
+
+  /* ── FOOTER ── */
+  footer { position: relative; z-index: 2; border-top: 1px solid var(--border); padding: 3rem 0; background: rgba(5, 2, 10, .95); margin-top: 4rem; }
+  .footer-inner { max-width: 1000px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem; padding: 0 20px; }
+  .footer-brand { display: flex; align-items: center; gap: 1rem; font-family: 'Kaushan Script', cursive; font-size: 1.8rem; color: #fff; text-shadow: 0 0 15px var(--glow); }
+  .footer-info { text-align: center; font-size: 0.85rem; color: var(--silver3); }
+  .footer-right { font-size: 0.85rem; color: var(--silver3); text-align: right; }
+
+  .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease, transform 0.8s ease; }
+  .reveal.visible { opacity: 1; transform: none; }
+
+  @media (max-width: 768px) {
+    nav { position: fixed; top: auto; bottom: 20px; left: 50%; transform: translateX(-50%); width: 95%; border-radius: 20px; padding: 14px 6px; background: rgba(10, 4, 20, 0.85); backdrop-filter: blur(20px); gap: 15px;}
+    nav a { font-size: 0.75rem; letter-spacing: 0.5px; }
+    nav a::after { display: none; }
+    .policy-card { padding: 2rem 1.5rem; }
+    .footer-inner { flex-direction: column; text-align: center; padding-bottom: 80px; }
+    .footer-right { text-align: center; }
+  }
+</style>
 </head>
 <body>
+
+  <div id="cur"></div>
+  <div id="cur-trail"></div>
+  <div id="particles"></div>
+
+  <nav>
+    <a href="#overview" class="nav-link">Overview</a>
+    <a href="#data-collected" class="nav-link">Data</a>
+    <a href="#usage" class="nav-link">Usage</a>
+    <a href="#discord-intents" class="nav-link">Intents</a>
+    <a href="#rights" class="nav-link">Rights</a>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-bg"></div>
     <div class="container">
-        <header>
-            <h1>🔐 Privacy Policy</h1>
-            <p>Bewafa Discord Bot - Minecraft SMP Integration</p>
-        </header>
-        
-        <div class="content">
-            <div class="last-updated">
-                <strong>Last Updated:</strong> June 2026
-            </div>
-            
-            <section>
-                <h2>Overview</h2>
-                <p>
-                    The Bewafa Discord Bot is designed exclusively for the Bewafa Minecraft SMP server and its associated Discord community. 
-                    This Discord application integrates with DiscordSRV to facilitate seamless communication between Discord and Minecraft environments.
-                </p>
-                <p>
-                    This Privacy Policy outlines what data is collected, how it is used, and the measures taken to protect user privacy.
-                </p>
-            </section>
-            
-            <section>
-                <h2>Data Collected</h2>
-                <p>The application may process the following information:</p>
-                <ul>
-                    <li><strong>Discord User IDs</strong> - Unique identifiers for Discord users</li>
-                    <li><strong>Discord Usernames and Display Names</strong> - Usernames and nicknames as displayed on Discord</li>
-                    <li><strong>Messages</strong> - Chat messages sent in configured bridge channels between Discord and Minecraft</li>
-                    <li><strong>Minecraft Usernames</strong> - Player names associated with Minecraft accounts</li>
-                    <li><strong>Registration Data</strong> - Account-linking information connecting Discord and Minecraft accounts</li>
-                </ul>
-                <div class="highlight">
-                    <strong>⚠️ Important:</strong> No other personal information (email addresses, IP addresses, payment information, etc.) is collected beyond what is necessary for account linking and message relay functionality.
-                </div>
-            </section>
-            
-            <section>
-                <h2>Purpose of Data Collection</h2>
-                <p>The collected data is used solely for the following purposes:</p>
-                <ul>
-                    <li>Relaying messages between Discord and Minecraft servers</li>
-                    <li>Storing account-linking information to connect Discord and Minecraft accounts</li>
-                    <li>Synchronizing server-related features and functionality between Discord and Minecraft</li>
-                    <li>Providing a cohesive experience for server members across both platforms</li>
-                </ul>
-            </section>
-            
-            <section>
-                <h2>Data Storage</h2>
-                <h3>What is Stored</h3>
-                <p>
-                    Only registration data (account-linking information) is stored locally. This data is maintained by DiscordSRV and related plugins 
-                    to enable the connection between Discord accounts and Minecraft player profiles.
-                </p>
-                <h3>Where Data is Stored</h3>
-                <p>
-                    Data is stored on the Bewafa Minecraft SMP server infrastructure. Server administrators have access to this data for management 
-                    and operational purposes.
-                </p>
-                <h3>Message Handling</h3>
-                <p>
-                    Messages are relayed in real-time between Discord and Minecraft and are not permanently stored in a separate database. 
-                    Messages are displayed as they are sent and then discarded from the relay system.
-                </p>
-            </section>
-            
-            <section>
-                <h2>Data Sharing</h2>
-                <p>
-                    <strong>Your data is never sold, rented, or shared with third parties.</strong>
-                </p>
-                <p>
-                    The only exceptions are:
-                </p>
-                <ul>
-                    <li>Discord - Your data is shared with Discord as required for the bot to function within their platform</li>
-                    <li>Minecraft/Microsoft - Your data is shared with Minecraft servers as required for game integration</li>
-                    <li>Server Administrators - Administrators have access to registration data for operational and moderation purposes</li>
-                </ul>
-            </section>
-            
-            <section>
-                <h2>AI and Machine Learning</h2>
-                <p>
-                    <strong>Message content and user data are absolutely NOT used to train artificial intelligence, machine learning models, 
-                    or any automated systems.</strong>
-                </p>
-                <p>
-                    Your messages remain private and are used only for their intended purpose: relaying communication between Discord and Minecraft.
-                </p>
-            </section>
-            
-            <section>
-                <h2>Data Security</h2>
-                <p>
-                    While we strive to protect your data, please note that this is a community-run server. The server administrators take reasonable 
-                    precautions to secure stored data from unauthorized access. However, no system is 100% secure, and we cannot guarantee absolute security.
-                </p>
-            </section>
-            
-            <section>
-                <h2>Your Rights</h2>
-                <p>You have the right to:</p>
-                <ul>
-                    <li><strong>Request Access</strong> - Ask what data is stored about you</li>
-                    <li><strong>Request Deletion</strong> - Ask for your registration data to be removed</li>
-                    <li><strong>Withdraw Consent</strong> - Stop using the bot and request data deletion</li>
-                </ul>
-            </section>
-            
-            <section>
-                <h2>Changes to This Policy</h2>
-                <p>
-                    We may update this Privacy Policy from time to time to reflect changes in our practices, technology, or applicable laws. 
-                    We will notify users of any significant changes via our Discord server or website.
-                </p>
-            </section>
-            
-            <section class="contact-section">
-                <h2>📞 Contact & Support</h2>
-                <p>
-                    If you have any questions, concerns, or requests regarding this Privacy Policy or your data, 
-                    please contact the server administrator through one of the following channels:
-                </p>
-                <div class="links">
-                    <a href="https://www.bewafa.fun" target="_blank">🌐 Visit Website</a>
-                    <a href="https://discord.gg/bewafa" target="_blank">💬 Join Discord</a>
-                </div>
-                <p style="margin-top: 20px; font-size: 0.95em;">
-                    <strong>Server Name:</strong> Bewafa Minecraft SMP<br>
-                    <strong>Website:</strong> www.bewafa.fun<br>
-                    <strong>Discord:</strong> discord.gg/bewafa
-                </p>
-            </section>
-        </div>
-        
-        <footer>
-            <p>&copy; 2026 Bewafa Minecraft SMP. All rights reserved.</p>
-            <p>This Privacy Policy is specific to the Discord bot integration for the Bewafa community.</p>
-        </footer>
+      <h1 class="page-title">Privacy Policy</h1>
+      <p class="tagline">Bewafa Community, Discord Bots & SMP</p>
+      <div class="last-updated">Last Updated: Current</div>
     </div>
+  </header>
+
+  <div class="container">
+    
+    <section id="overview" style="padding-top: 0;">
+      <div class="policy-card reveal">
+        <h2><span class="icon">🛡️</span> Overview</h2>
+        <p>This Privacy Policy outlines how the <strong>Bewafa Community</strong> ("we", "our", "us") collects, uses, and protects your data across our Discord Server, our custom Discord Bots (including Zyrox and SMP Bridge Bots), and our Minecraft Survival Multiplayer (SMP) server.</p>
+        <p>By joining our server, using our bots, or playing on our SMP, you consent to the data practices described in this document. We are committed to minimizing data collection to only what is required to provide a seamless and safe community experience.</p>
+      </div>
+
+      <div id="data-collected" class="policy-card reveal">
+        <h2><span class="icon">📦</span> Information We Collect</h2>
+        <h3>Discord Data</h3>
+        <p>When you interact with our Discord server or authenticate with our bots, we may collect the following via the Discord API:</p>
+        <ul class="policy-list">
+          <li><strong>User IDs & Profile Info:</strong> Your unique Discord ID, username, global name, and avatar.</li>
+          <li><strong>Message Content:</strong> Chat messages sent in specific bridge channels (to sync with Minecraft) or command inputs triggered for our bots.</li>
+          <li><strong>Server Data:</strong> Your roles, join date, and voice channel activity (used for internal XP and event tracking).</li>
+        </ul>
+
+        <h3>Minecraft SMP Data</h3>
+        <p>If you connect to our Minecraft SMP, we process:</p>
+        <ul class="policy-list">
+          <li><strong>Minecraft UUIDs & Usernames:</strong> To identify your account in-game.</li>
+          <li><strong>Connection Data:</strong> IP addresses are temporarily processed for security, anti-DDoS, and preventing ban evasion.</li>
+          <li><strong>Account Linking:</strong> Data connecting your Discord ID to your Minecraft UUID (via DiscordSRV) to sync chat and roles.</li>
+        </ul>
+      </div>
+
+      <div id="usage" class="policy-card reveal">
+        <h2><span class="icon">⚙️</span> How We Use Your Data</h2>
+        <p>We do not collect data for tracking or advertising. Your data is strictly used for the operational functionality of the community:</p>
+        <ul class="policy-list">
+          <li><strong>Cross-Platform Syncing:</strong> Relaying chat messages and server status between the Discord server and the Minecraft SMP in real-time.</li>
+          <li><strong>Bot Functionality:</strong> Processing commands, awarding XP, managing economies, and facilitating server events/giveaways via our custom bots.</li>
+          <li><strong>Moderation & Security:</strong> Maintaining logs to protect the server from spam, griefing, and malicious actors.</li>
+        </ul>
+        <div class="highlight-box">
+          <p><strong>🚫 AI & Machine Learning:</strong> We absolutely do not use your message content, voice data, or personal information to train AI models, LLMs, or any automated external systems.</p>
+        </div>
+      </div>
+
+      <div id="discord-intents" class="policy-card reveal">
+        <h2><span class="icon">🤖</span> Discord Privileged Intents</h2>
+        <p>Our custom bots utilize Discord Privileged Intents strictly to function properly. Here is why we need them:</p>
+        <ul class="policy-list">
+          <li><strong>Message Content Intent:</strong> Required to read messages sent in the Discord-to-Minecraft bridge channel so they can be broadcasted in-game, and to listen for specific text-based commands or automoderation triggers.</li>
+          <li><strong>Server Members Intent:</strong> Required to verify when a user joins or leaves, assign automatic roles, sync Minecraft whitelist statuses, and keep our internal XP/economy databases up to date.</li>
+        </ul>
+        <p><em>Message content is held in temporary memory to execute the relay or command and is discarded immediately. We do not maintain a permanent database of your Discord chat history.</em></p>
+      </div>
+
+      <div class="policy-card reveal">
+        <h2><span class="icon">🔒</span> Data Storage & Sharing</h2>
+        <p><strong>Storage:</strong> Registration data (like account linking) and basic economy/XP data are stored securely on Bewafa's server infrastructure provided by our hosts. We employ standard security measures to prevent unauthorized access.</p>
+        <p><strong>Sharing:</strong> <strong>Your data is never sold, rented, or shared with third-party advertisers.</strong> The only entities data is shared with are the platforms themselves (Discord and Mojang/Microsoft) as required to make the integrations work.</p>
+      </div>
+
+      <div id="rights" class="policy-card reveal">
+        <h2><span class="icon">⚖️</span> Your Rights & Data Deletion</h2>
+        <p>You maintain full control over your data within our ecosystem. You have the right to:</p>
+        <ul class="policy-list">
+          <li><strong>Request Access:</strong> View the profile/economy data our bots have saved about you.</li>
+          <li><strong>Unlink Accounts:</strong> Disconnect your Discord account from your Minecraft profile at any time.</li>
+          <li><strong>Request Deletion:</strong> You may request the total deletion of your profile data from our bot databases.</li>
+        </ul>
+        <p>To request data deletion, open a support ticket in the Discord server or contact the development team directly.</p>
+        
+        <a href="https://discord.gg/bewafa" class="btn-primary" target="_blank">Open a Support Ticket</a>
+      </div>
+
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">BEWAFA</div>
+      <div class="footer-info">
+        <div>For developer inquiries, ping the Development Team.</div>
+        <div style="margin-top: 5px;"><a href="https://discord.gg/bewafa" class="inline-link" target="_blank">discord.gg/bewafa</a></div>
+      </div>
+      <div class="footer-right">
+        © <span id="year"></span> Bewafa Community<br>
+        <span style="color:var(--silver3);">All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const cur = document.getElementById('cur'), trail = document.getElementById('cur-trail');
+    let mx = 0, my = 0, tx = 0, ty = 0;
+    
+    document.addEventListener('mousemove', e => { 
+      mx = e.clientX; my = e.clientY; 
+      cur.style.left = mx + 'px'; cur.style.top = my + 'px'; 
+    });
+    
+    (function anim() { 
+      tx += (mx - tx) * .15; ty += (my - ty) * .15; 
+      trail.style.left = tx + 'px'; trail.style.top = ty + 'px'; 
+      requestAnimationFrame(anim); 
+    })();
+
+    document.querySelectorAll('a, button, .policy-card').forEach(el => {
+      el.addEventListener('mouseenter', () => { 
+        trail.style.width = '60px'; trail.style.height = '60px'; trail.style.borderColor = 'var(--glow-core)'; 
+        trail.style.backgroundColor = 'rgba(170, 0, 255, 0.1)';
+        trail.style.boxShadow = '0 0 30px var(--glow)';
+      });
+      el.addEventListener('mouseleave', () => { 
+        trail.style.width = '36px'; trail.style.height = '36px'; trail.style.borderColor = 'rgba(208, 77, 255, 0.8)'; 
+        trail.style.backgroundColor = 'transparent';
+        trail.style.boxShadow = '0 0 15px var(--glow)';
+      });
+    });
+
+    const pc = document.getElementById('particles');
+    for(let i=0; i<35; i++){
+      const p = document.createElement('div');
+      p.className = 'p';
+      const sz = Math.random() * 5 + 1;
+      const hue = Math.random() > 0.5 ? '170,0,255' : '232,166,255'; 
+      p.style.cssText = `
+        width:${sz}px; height:${sz}px;
+        left:${Math.random()*100}%;
+        background:rgba(${hue},${Math.random()*.7+.2});
+        box-shadow:0 0 ${sz*4}px rgba(${hue},.6);
+        animation-duration:${Math.random()*25+15}s;
+        animation-delay:-${Math.random()*20}s;
+      `;
+      pc.appendChild(p);
+    }
+
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { 
+        if (e.isIntersecting) { 
+          e.target.classList.add('visible'); 
+          obs.unobserve(e.target); 
+        } 
+      });
+    }, { threshold: 0.1 });
+    
+    document.querySelectorAll('.reveal').forEach((el) => obs.observe(el));
+  </script>
 </body>
 </html>
